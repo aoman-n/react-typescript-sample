@@ -39,7 +39,7 @@
     "linters": {
       "*.{ts,tsx}": [
         "prettier --write",
-        "eslint --fix",
+        "tslint --fix",
         "git add"
       ]
     },
